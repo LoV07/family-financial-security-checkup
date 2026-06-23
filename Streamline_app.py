@@ -79,7 +79,7 @@ with col1:
     )
 else:
     future_marriage_goal = 0
-    )
+    
 
 with col2:
 
