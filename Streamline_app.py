@@ -70,11 +70,15 @@ with col1:
         child_education = 0
         child_marriage = 0
 
+    if life_stage == "Single":
     future_marriage_goal = st.number_input(
         "Future Marriage Fund (₹)",
         min_value=0,
-        value=1000000 if life_stage == "Single" else 0,
+        value=1000000,
         step=100000
+    )
+else:
+    future_marriage_goal = 0
     )
 
 with col2:
