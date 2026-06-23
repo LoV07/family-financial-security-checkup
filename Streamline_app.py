@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.title("🏠 LifeStage Financial Wellness Assessment")
 st.caption(
-    "Prototype Personalized Financial Security Checkup for Gen Z, Millennials and Families"
+    "Personalized Financial Security Checkup for Gen Z, Millennials and Families"
 )
 
 # =========================
@@ -70,16 +70,8 @@ with col1:
         child_education = 0
         child_marriage = 0
 
-    if life_stage == "Single":
-    future_marriage_goal = st.number_input(
-        "Future Marriage Fund (₹)",
-        min_value=0,
-        value=1000000,
-        step=100000
+    future_marriage_goal =0
     )
-else:
-    future_marriage_goal = 0
-    
 
 with col2:
 
